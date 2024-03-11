@@ -8,32 +8,32 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: 'none'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Singularity Workshop 2023' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~ # FIXME
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, data, lesson' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'none' # FIXME
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/TheJacksonLaboratory/singularity-workshop-2023' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'kurt.showmaker@jax.org' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -59,7 +59,18 @@ contact: 'team@carpentries.org' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- 00-introduction.md
+- 01-intro-to-computers.md
+- 02-singularity-commands.md
+- 03-singularity-pull-hello-world.md
+- 04-repos-and-registries.md
+- 05-singularity-build.md
+- 06-bioinformatics-qc.md
+- 07-bioinformatics-bwa.md
+- 08-circos.md
+- 09-singularity-build-blast-example.md
+- 10-singularity_build_rstudio.md
+
 
 # Information for Learners
 learners: 
